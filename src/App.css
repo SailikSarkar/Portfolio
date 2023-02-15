@@ -1,0 +1,209 @@
+
+.light-theme {
+
+  
+  --hue: 0;
+  --sat: 0%;
+  --title-color: #1b1b1b;
+  --title-color2: #000000;
+  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+  --text-color: hsl(var(--hue), var(--sat), 46%);
+  --body-color:#d4d2ba;
+  --container-color: rgb(31, 31, 31);
+  --ash1: #d4d2ba;
+  --yellow-1:#ff24e2;
+  --yellow-2:#ff50ffc0;
+  --yellow-3: linear-gradient(104.12deg, #F1F1F1 5.46%, #FFD951 89.65%);
+  /* --linear-g1:linear-gradient(138.21deg, rgba(24, 24, 24, 0) 44.19%, rgba(0, 0, 0, 0.336) 94.47%);
+   */
+  --dark-900: #f0f0f0;
+  --dark-700: rgb(255, 255, 255);
+  --dark-500: rgb(112, 112, 112);
+  --dark-300: #1f1f1f;
+  --dark-100: #000000;
+  /* --glow-1:  drop-shadow(0px 16px 20px rgba(0, 0, 0, 0.562)); 
+  --glow-2:  drop-shadow(0px 16px 15px rgba(0, 0, 0, 0.096));  */
+
+}
+
+
+.dark-theme {
+  --background: #000;
+  --text-primary: #fff;
+  --text-secondary: #8e05c2;
+  --accent: #8e05c2;
+  --border: #808080;
+  --form-bg: #191919;
+  --heading-color: rgba(7, 15, 128, 0.89);
+
+
+
+
+  --hue: 0;
+  --sat: 0%;
+  --title-color: #E7E7E7;
+  --title-color2: #D9D9D9;
+  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+  --text-color: hsl(var(--hue), var(--sat), 46%);
+  --body-color:#070311;
+  --container-color: #fff;
+  --ash1: #070311;
+  --yellow-1:#FFD951;
+  --yellow-2:#d8a900c0;
+  /* --yellow-3: linear-gradient(104.12deg, #F1F1F1 5.46%, #ffd951b7 89.65%);
+   */
+  --dark-900: rgba(22, 22, 22, 0.849);
+  --dark-700: rgb(22, 22, 22);
+  --dark-500: rgb(192, 192, 192);
+  --dark-300: #252525;
+  --dark-100: #8d8d8d;
+  --glow-1:  drop-shadow(0px 16px 40px rgba(217, 18, 190, 0.158));
+  --glow-2:  drop-shadow(0px 8px 15px rgba(255, 0, 200, 0.014));
+
+}
+
+
+
+.gradient-03 {
+    position: absolute;
+    width: 404px;
+    height: 800px;
+    left: 20%;
+    top: 5%;
+  
+    background: rgba(181, 155, 207, 0.35);
+    filter: blur(175px);
+    transform: rotate(-114.2deg);
+  }
+  
+  .gradient-04 {
+    position: absolute;
+    width: 304px;
+    height: 100vh;
+    left: 30%;
+    top: 10%;
+  
+    background: rgba(7, 15, 128, 0.89);
+    filter: blur(200px);
+    transform: rotate(-53.13deg);
+  }
+  
+  .gradient-05 {
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.04) 0%,
+      rgba(192, 192, 192, 0.075) 100%
+    );
+  }
+  
+  .feedback-gradient {
+    position: absolute;
+    width: 200px;
+    height: 316px;
+    left: 0px;
+    top: 0px;
+  
+    background: #cc00ff;
+    filter: blur(175px);
+  }
+  .feedback-gradient2 {
+    position: absolute;
+    width: 200px;
+    height: 316px;
+    left: 100px;
+    top: 0px;
+  
+    background: #2600ff7e;
+    filter: blur(175px);
+  }
+  
+  .footer-gradient {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    left: 37%;
+    bottom: 0;
+  
+    background: #65c4fa;
+    filter: blur(150px);
+  }
+
+.hero-gradient {
+    background: linear-gradient(
+      97.86deg,
+      #a509ff 0%,
+      #34acc7 53.65%,
+      #a134c7 100%
+    );
+  }
+.gradient-02 {
+    position: absolute;
+    width: 200px;
+    height: 438px;
+    top: 0px;
+    right: 0px;
+  
+    background: #7aebfb;
+    filter: blur(190px);
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    background: #131212;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+img {
+    width: 100%;
+}
+.container {
+    max-width:1224px;
+    min-height: 100vh;
+    padding: 7rem 1.5rem 0 1.5rem;
+    margin: 0 auto;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url(./Font/Poppins-Medium.ttf);
+}
+.title {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 861;
+    padding: 10px;
+   
+   
+    /* line-height: 19px; */
+    letter-spacing: 0.255em;
+    text-transform: uppercase;
+}
+.title span {
+    color: #1a9bbb;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 800;
+    padding: 15px;
+ 
+
+    letter-spacing: 10px;
+}
+.title h1 {
+    color: #fff;
+    font-size: 3rem;
+    position: relative;
+}
+@media screen and (max-width: 500px) {
+    .container {
+        padding: 7rem 1rem 0 1rem;
+    }
+    .title h1 {
+        font-size: 2.5rem;
+    }
+}
