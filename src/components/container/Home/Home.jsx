@@ -31,7 +31,7 @@ const Home = () => {
 
       
       <div className="profile_text">
-      <div className='gradient-04'></div>
+      
        
         <span className='text'>Hi, This is<br />“Sailik Sarkar.” </span>
         <span className='job'>Web Developer , App Developer</span>
