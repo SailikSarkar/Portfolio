@@ -43,22 +43,7 @@ const Home = () => {
           animate="animation"
         >
           contact me</motion.a>
-        {/* <div
-          className="web"
-
-        >
-          Web Developer
-        </div>
-        <div
-          className="ui"
-        >
-          UI/UX Designer
-        </div> */}
-        {/* <div
-          className="freelance"
-        >
-          Freelancer
-        </div> */}
+       
       </div>
     </motion.div>
   )
